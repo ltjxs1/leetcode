@@ -1,10 +1,13 @@
 package cn.jzp.leetcode.q47;
 
+import cn.jzp.leetcode.common.annotation.Finish;
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
+@Finish
 public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> permutes = new LinkedList<>();

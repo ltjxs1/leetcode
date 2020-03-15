@@ -1,10 +1,13 @@
 package cn.jzp.leetcode.q695;
 
+import cn.jzp.leetcode.common.annotation.Finish;
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
+@Finish
 public class Solution {
     Set<String> visitSet = new HashSet<>();
     public int maxAreaOfIsland(int[][] grid) {

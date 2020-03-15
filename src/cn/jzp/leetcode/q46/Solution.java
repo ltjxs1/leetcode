@@ -1,8 +1,11 @@
 package cn.jzp.leetcode.q46;
 
+import cn.jzp.leetcode.common.annotation.Finish;
+
 import java.util.LinkedList;
 import java.util.List;
 
+@Finish
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> permutes = new LinkedList<>();
